@@ -1143,6 +1143,11 @@ header.video_section .container {
   font-size: 16px;
 }
 
+.home_about h2 {
+  font-weight: 700;
+  color: #00007a;
+}
+
 .abt_img_outer {
   overflow: hidden;
 }

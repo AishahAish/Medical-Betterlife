@@ -30,6 +30,24 @@ max-width: 100%;
     text-align: center;
 }
 }
+@media all and (max-width: 767px) {
+  .display-4 {
+    font-size: 46px;
+  }
+  .call_us {
+     padding: 3em 1em;    height: initial;
+}
+.news_letters .service_img {
+  height: 150px;
+}
+h1, .h1 {
+  font-size: 32px;
+}
+.featured_treatments, .news_letters 
+{
+  padding: 2em;
+}
+}
 @media all and (max-width: 600px) {
   .service_img {
       height: 130px;
@@ -37,7 +55,25 @@ max-width: 100%;
 .image-gallery .modal-header .close {
   margin: 1.5em 0 0;
 }
+.display-4 {
+  font-size: 46px;
 }
+.contact-us .contact-us_img {
+  height: 55vh;
+}
+.service_img {
+  height: 220px;
+}
+}
+@media all and (max-width: 576px) {
+  .embed-responsive {
+    margin-bottom: 15px;
+}
+.news_letters .service_img {
+  height: 250px;
+}
+}
+
 @media all and (max-width: 500px) {
   .testim .arrow {
     font-size: 1.5em;
@@ -46,5 +82,25 @@ max-width: 100%;
   .testim .cont div p {
     line-height: 25px;
   }
-
+  .home_about, .home_services, .news_letters   
+  {
+    padding: 2em;
+  }
+  h1, .h1 {
+    font-size: 36px;
+}
+}
+@media all and (max-width: 414px) {
+.display-4 {
+  font-size: 36px;
+}
+.contact-us .contact-us_img {
+  height: 45vh;
+}
+h1, .h1 {
+  font-size: 30px;
+}
+.service_img, .news_letters .service_img {
+  height: 180px;
+}
 }
